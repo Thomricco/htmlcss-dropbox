@@ -19,7 +19,7 @@ main {
 }
 
 .check.uno {
-    margin-left: 230px;
+    margin-left: 250px;
 }
 
 .row::after {
@@ -45,14 +45,13 @@ main {
 .logo {
     display: inline-block;
     margin-left: 20px;
-    margin-top: 10px;
-    vertical-align: middle;
+    margin-top: 20px;
 }
 
 .link-nav1 {
     display: inline-block;
     margin-left: 40px;
-    margin-bottom: 20px;
+    line-height: 80px;
 }
 
 .link-nav1 a {
@@ -74,7 +73,7 @@ main {
 .link-nav2 {
     display: inline-block;
     margin-right:  40px;
-    margin-bottom: 20px;
+    line-height: 80px;
 }
 
 .link-nav2 a {
@@ -123,6 +122,7 @@ h6 {
 .text-container {
     width: 800px;
     margin: 0 auto;
+    height: 450px;
     padding-top: 20px;
     font-size: 23px;
 }
@@ -149,9 +149,8 @@ h6 {
     float: left;
     width: 60%;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 60px;
     padding-left: 40px;
-    margin-bottom: -60px;
 }
 
 .sezione2{
@@ -162,6 +161,13 @@ h6 {
     margin-bottom: 20px;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.arrow-down::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f063";
+
 }
 
 .sezione-box1 {
@@ -178,7 +184,7 @@ h6 {
 }
 
 .container2 {
-    height: 1000px;
+    height: 1200px;
     width: 800px;
     margin: 0 auto;
     margin-top: 50px;
@@ -263,6 +269,11 @@ h6 {
     color: rgb(63, 63, 63);
 }
 
+.text-list2 {
+    font-size: small;
+    color: rgb(63, 63, 63);
+}
+
 .bar {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -282,16 +293,9 @@ li {
     color: dodgerblue;
 }
 
-.container3 {
-    margin-top: 50px;
-    height: 200px;
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 100px;
-}
+
 
 .tab3 {
-    margin-top: 50px;
     background-color: #fff;
     height: 50px;
     width: 100%;
@@ -305,6 +309,8 @@ li {
 .container4 {
     width: 800px;
     margin: 0 auto;
+    border: 1px #333 solid;
+    color: rgb(63, 63, 63);
 }
 
 
@@ -312,24 +318,22 @@ li {
 .sezione5{
     float: left;
     width: 70%;
-    height: 200px;
+    height: 150px;
 }
 
 .sezione6{
     float: left;
     width: 30%;
-    height: 200px;
+    height: 150px;
     padding-left: 20px;
 }
 
 .sezione-box4 {
-    width: 100%;
-    height: 300px;
+    margin-top: 20px;
 }
 
 .sezione-box5 {
-    width: 100%;
-    height: 300px;
+    margin-top: 20px;
 }
 
 
@@ -337,6 +341,7 @@ li {
     width: 800px;
     margin: 0 auto;
     height: 500px;
+    margin-top: 100px;
 }
 
 
@@ -428,7 +433,6 @@ li {
 
 
 .container.footer1 {
-    width: 1200px;
     height: 400px;
     margin: 0 auto;
     margin-top: 50px;
@@ -451,6 +455,10 @@ li {
 
 .logo2 {
     width: 100px;
+}
+
+.text-lorem {
+    margin-top: 50px;
 }
 
 .invert {
@@ -517,4 +525,66 @@ li {
 
 .boxlogo8 {
     background-color: yellow;
+}
+
+.container.footer2 {
+    height: 250px;
+    margin: 0 auto;
+    background: rgb(152, 196, 216);
+}
+
+.session-footer1 {
+    float: left;
+    width: 50%;
+    color: rgb(146, 32, 32);
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.session-footer2 {
+    float: left;
+    width: 50%;
+    color: rgb(146, 32, 32);
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.container.footer3 {
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+footer {
+    height: 400px;
+    background-color: black;
+
+}
+
+.sessione-flot1 {
+    float: left;
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.globe::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f57d";
+}
+
+.globe.angle::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
+}
+
+.angle::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
 }
