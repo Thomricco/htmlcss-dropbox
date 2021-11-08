@@ -37,8 +37,8 @@ main {
 
 .nav2 {
     height: 80px;
-    display: inline-block;
     float: right;
+    display: inline-block;
     vertical-align: middle;
 }
 
@@ -443,18 +443,39 @@ li {
 .boxf1 {
     float: left;
     width: 50%;
-    height: 50%;
-    background: aquamarine url("../img/designit.svg") no-repeat;
+    height: 50%;;
     background-size: 100px;
     background-position: center;
+}
+
+
+.logo2 {
+    width: 100px;
+}
+
+.invert {
     filter: invert(100%);
 }
 
-.boxf1.img1 {
-    background: aquamarine url("../img/designit.svg") no-repeat;
-    background-size: 100px;
-    background-position: center;
-    filter: invert(100%);
+.logo2.invert {
+    padding-top: 90px;
+    margin-left: 50px;
+}
+
+.boxlogo1 {
+    background-color: aquamarine
+}
+
+.boxlogo2 {
+    background-color: rgb(116, 29, 29)
+}
+
+.boxlogo3 {
+    background-color: dodgerblue;
+}
+
+.boxlogo4 {
+    background-color: red;
 }
 
 .session-f2 {
@@ -470,10 +491,7 @@ li {
     padding-left: 20px;
 }
 
-.logo2 {
-    width: 50px;
-    height: 50px;
-}
+
 
 .session-f3 {
     float: right;
@@ -485,7 +503,18 @@ li {
     float: left;
     width: 50%;
     height: 50%;
-    background: aquamarine url("../img/designit.svg") no-repeat;
     background-size: 100px;
     background-position: center;
+}
+
+.boxlogo6 {
+    background-color: gray;
+}
+
+.boxlogo7 {
+    background-color: blue;
+}
+
+.boxlogo8 {
+    background-color: yellow;
 }
