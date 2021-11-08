@@ -29,19 +29,24 @@ main {
 }
 
 .nav1 {
+    height: 80px;
     display: inline-block;
     float: left;
+    vertical-align: middle;
 }
 
 .nav2 {
+    height: 80px;
     display: inline-block;
     float: right;
+    vertical-align: middle;
 }
 
 .logo {
     display: inline-block;
     margin-left: 20px;
     margin-top: 10px;
+    vertical-align: middle;
 }
 
 .link-nav1 {
@@ -391,32 +396,32 @@ li {
     
 }
 
-.img8 {
+.sezione-box8.img8 {
     background: url(../img/business-feature-switching-tools.png) no-repeat;
     background-size: contain;
 }
 
-.img9 {
+.sezione-box8.img9 {
     background: url(../img/business-feature-coordinate-it.png) no-repeat;
     background-size: contain;
 }
 
-.img10 {
+.sezione-box8.img10 {
     background: url(../img/business-feature-multi-device.png) no-repeat;
     background-size: contain;
 }
 
-.img11 {
+.sezione-box8.img11 {
     background: url(../img/business-feature-integrations-it.png) no-repeat;
     background-size: contain;
 }
 
-.img12 {
+.sezione-box8.img12 {
     background: url(../img/business-feature-send-files-it.png) no-repeat;
     background-size: contain;
 }
 
-.img13 {
+.sezione-box8.img13 {
     background: url(../img/business-feature-security.png) no-repeat;
     background-size: contain;
 }
@@ -441,6 +446,14 @@ li {
     height: 50%;
     background: aquamarine url("../img/designit.svg") no-repeat;
     background-size: 100px;
+    background-position: center;
+    filter: invert(100%);
+}
+
+.boxf1.img1 {
+    background: aquamarine url("../img/designit.svg") no-repeat;
+    background-size: 100px;
+    background-position: center;
     filter: invert(100%);
 }
 
@@ -455,8 +468,6 @@ li {
     height: 100%;
     padding-top: 20px;
     padding-left: 20px;
-    background: url(../img/designit.svg) no-repeat;
-    background-size: 100px;
 }
 
 
@@ -467,6 +478,10 @@ li {
 }
 
 .boxf3 {
-    width: 100%;
-    height: 100%;
+    float: left;
+    width: 50%;
+    height: 50%;
+    background: aquamarine url("../img/designit.svg") no-repeat;
+    background-size: 100px;
+    background-position: center;
 }
