@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*--------------classi utility---------------*/
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,11 +23,28 @@ h1 {
     font-size: 60px;
 }
 
+h6 {
+    color: gray;
+}
+
 .row::after {
     content: "";
     display: table;
     clear:both;
 }
+
+.row {
+    margin: 0 auto;
+}
+
+.a-link{
+    font-size: 13px;
+}
+
+/*--------------fine classi utility-----------------*/
+
+
+/*--------------inizio nav----------------*/
 
 .nav1 {
     height: 80px;
@@ -80,13 +99,6 @@ h1 {
     color: #333;
 }
 
-h6 {
-    color: gray;
-}
-
-.row {
-    margin: 0 auto;
-}
 
 .bottone.inizia {
     margin-top: 20px;
@@ -114,6 +126,10 @@ h6 {
     border: 1px #333 solid;
 }
 
+/*--------------fine nav----------------*/
+
+
+/*--------------inizio jambotron----------------*/
 .container1 {
     background-color: rgb(63, 122, 180);
     height: 600px;
@@ -132,12 +148,6 @@ h6 {
     height: 100px;
     margin: 0 auto;
     font-size: 23px;
-}
-
-
-
-.a-link{
-    font-size: 13px;
 }
 
 
@@ -178,6 +188,10 @@ h6 {
     height: 300px;
     font-size: 15px;
 }
+
+/*--------------fine jambotron----------------*/
+
+/*--------------inizio tab box pack----------------*/
 
 .container2 {
     height: 1200px;
@@ -302,6 +316,10 @@ li {
 }
 
 
+/*--------------fine tab box pack----------------*/
+
+/*--------------inizio container info 1---------------*/
+
 .container4 {
     width: 800px;
     margin: 0 auto;
@@ -332,7 +350,7 @@ li {
     margin-top: 20px;
 }
 
-
+/*--------------inizio container info 2---------------*/
 .container5 {
     width: 800px;
     margin: 0 auto;
@@ -370,6 +388,8 @@ li {
     background-color: #fff;
 }
 
+
+/*--------------inizio container info 3---------------*/
 
 
 .container6 {
@@ -426,6 +446,8 @@ li {
 }
 
 
+/*--------------inizio container footer 1---------------*/
+
 .container.footer1 {
     height: 400px;
     margin: 0 auto;
@@ -468,11 +490,6 @@ li {
     filter: invert(100%);
 }
 
-/*
-.logo2.invert {
-    padding-top: 90px;
-    margin-left: 50px;
-}*/
 
 .boxlogo1 {
     background-color: aquamarine
@@ -533,6 +550,9 @@ li {
     background-color: yellow;
 }
 
+
+/*--------------inizio container footer 2---------------*/
+
 .container.footer2 {
     height: 250px;
     margin: 0 auto;
@@ -556,6 +576,9 @@ li {
     padding-top: 100px;
 }
 
+
+/*--------------inizio container footer 3---------------*/
+
 .container.footer3 {
     width: 800px;
     margin: 0 auto;
@@ -564,6 +587,8 @@ li {
     margin-bottom: 100px;
 }
 
+
+/*--------------inizio container footer finale---------------*/
 
 footer {
     height: 400px;
