@@ -15,12 +15,8 @@ main {
 
 .check {
     display: inline-block;
-    margin-left: 50px;
 }
 
-.check.uno {
-    margin-left: 250px;
-}
 
 .row::after {
     content: "";
@@ -129,6 +125,7 @@ h6 {
 
 .text-container2 {
     width: 800px;
+    height: 100px;
     margin: 0 auto;
     font-size: 23px;
 }
@@ -349,7 +346,6 @@ li {
 .sezione7{
     float: left;
     width: 60%;
-    height: 200px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -357,10 +353,8 @@ li {
 .sezione8{
     float: left;
     width: 40%;
-    height: 200px;
     margin-top: 50px;
     margin-bottom: 20px;
-    padding-right: 20px;
     padding-left: 20px;
 }
 
@@ -387,10 +381,13 @@ li {
 
 
 
-.sezione8{
+.sezione50{
     float: left;
     width: 30%;
     height: 200px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -448,12 +445,21 @@ li {
     float: left;
     width: 50%;
     height: 50%;;
+    position: relative;
     background-size: 100px;
     background-position: center;
 }
 
 
 .logo2 {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo3{
     width: 100px;
 }
 
@@ -465,10 +471,11 @@ li {
     filter: invert(100%);
 }
 
+/*
 .logo2.invert {
     padding-top: 90px;
     margin-left: 50px;
-}
+}*/
 
 .boxlogo1 {
     background-color: aquamarine
@@ -495,6 +502,7 @@ li {
 .boxf2 {
     width: 100%;
     height: 100%;
+    position: relative;
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -511,6 +519,7 @@ li {
     float: left;
     width: 50%;
     height: 50%;
+    position: relative;
     background-size: 100px;
     background-position: center;
 }
