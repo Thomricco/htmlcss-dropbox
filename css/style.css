@@ -116,9 +116,9 @@ h6 {
 }
 
 .text-container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
-    height: 450px;
+    height: 500px;
     padding-top: 20px;
     font-size: 23px;
 }
@@ -146,7 +146,7 @@ h6 {
     float: left;
     width: 60%;
     height: 200px;
-    margin-top: 60px;
+    margin-top: 100px;
     padding-left: 40px;
 }
 
@@ -157,13 +157,13 @@ h6 {
     margin-top: 60px;
     margin-bottom: 20px;
     padding-right: 20px;
-    padding-left: 20px;
 }
 
 .arrow-down::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f063";
+    font-size: 30px;
 
 }
 
@@ -374,7 +374,7 @@ li {
 
 
 .container6 {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     height: 600px;
 }
@@ -385,9 +385,7 @@ li {
     float: left;
     width: 30%;
     height: 200px;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
 }
 
 
@@ -546,16 +544,17 @@ li {
     float: left;
     width: 50%;
     color: rgb(146, 32, 32);
-    padding-left: 150px;
+    padding-left: 250px;
     padding-top: 100px;
+    font-size: 20px;
 }
 
 .session-footer2 {
     float: left;
     width: 50%;
     color: rgb(146, 32, 32);
+    padding-left: 100px;
     padding-top: 100px;
-    padding-left: 150px;
 }
 
 .container.footer3 {
